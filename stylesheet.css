@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*ヘッダー*/
+header{
+    margin: 0;
+    height: 88px;
+    width: 100%;
+    background-color: #C80F00;
+    position: relative;
+    position: sticky;
+    top:0;
+    z-index:10;
+}
+
+    /*ヘッダーライン*/
+.header-top1{
+    height: 8px;
+    width:100%;
+    background-color: #020202;
+}
+.header-top2{
+    height:4px;
+    width: 100%;
+    background-color: #155875;
+}
+    /*札幌ロゴ*/
+
+.sapporo-logo{
+    position: absolute;
+    top: 15px;
+    width: 7%;
+    padding-left:3%;
+}
+
+
+
+.header-center{
+    color: white;
+    height: 88px;
+    text-align: center;
+    /*background-color:#020202;*/
+    width: 90%;
+    /*margin-left:auto;
+    margin-right: auto;*/
+    margin: 0 10%;
+    margin-top: 0;
+    line-height: 25px;
+}
+
+
+/*.wrapper{
+    text-align: center;
+}*/
+
+.header-center li{
+    float: left;
+    width: 8%;
+    padding-top: 2px;
+    transition: all 0.2s;
+}
+
+.header-center li:hover{
+    opacity: 0.3;
+}
+
+.header-center li p{
+    font-size: 8px;
+}
+
+.wrapper img{
+    width:40%;
+    height: 40%;
+    padding-top: 3px;
+}
+
+/*.target img{
+    width: 40%;
+    height: 40%;
+}*/
+
+.header-right{
+    float: right;
+    /*position: absolute;
+    top:0px;*/
+    width:76px;
+    /*left:96%;*/
+    height:76px;
+    background-color:#D11001;
+    /*display: block;*/
+    transition: all 0.3s;
+}
+
+.header-right:hover{
+    opacity: 0.3;
+}
+
+.header-right a{
+    /*line-height: 88px;*/
+    /*display: block;*/
+}
+.header-right img{
+    margin:14px 0;
+    height: 62%;
+    width: auto;
+}
+
+.clear{
+    clear:right;
+}
+
+/*ボディーここから*/
+
+body{
+    background-color: #141414;
+    /*color: white;*/
+    font-size: 100px;
+}
+
+.main{
+    background: url(https://d33qu4elo4g96s.cloudfront.net/topic/4/69/lSNQFOSsWzuXj4SJ4RhSnP3i6QtMG3c1UI7y5ctw.jpg) center center / cover no-repeat;
+    /*background-image: url('cloudfunding.jpeg');*/
+    /*background-image:url(https://d33qu4elo4g96s.cloudfront.net/topic/4/69/lSNQFOSsWzuXj4SJ4RhSnP3i6QtMG3c1UI7y5ctw.jpg);*/
+    /*background-size:100% 100%;*/
+    height: 900px;
+    width:auto;
+    margin: auto;
+}
+
+.sponsor-label{
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    
+    
+    
+}
+
+.sponsor-container{
+    width:90%;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.sponsor-label img{
+    width: 12%;
+    float:left;
+    padding-top: 12px;
+    
+}
+
+/*ボトムラッパーここから*/
+.info{
+    height: 350px;
+    width:70%;
+    background: url(https://www.consadole-sapporo.jp/images/bg/bg-main.jpg)center center / cover no-repeat;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.info h1{
+    color: white;
+    font-size: 30px;
+    font-family:"Yu Gothic";
+    font-weight: bold;
+    padding:0;
+    padding-top:40px;
+}
+
+.bottom-wrapper{
+    height: 400px;
+    background-color:#141414;
+
+}
+
+.info-wrapper{
+    width: 100%;
+    height: 75%;
+    /*background-color:brown;*/
+}
+
+.info-container{
+    text-align: center;
+    height:60%;
+    width:10%;
+    /*background-color:pink;*/
+    float: left;
+    margin-top:2%;
+    margin-bottom:4%;
+    margin-left:2%;
+    margin-right: 2%;
+}
+
+
+.info p{
+    font-size: 15px;
+    color: white;
+    margin-top:-30px;
+}
+
+.banner{
+    /*background-color:#141414;*/
+    background-color:#141414;
+    height: 300px;
+    border-bottom: 1px solid gray;
+
+}
+
+.banner-pass{
+    width:70%;
+}
+
+footer{
+    height:100px;
+    background-color:peru;
+}
+
+
